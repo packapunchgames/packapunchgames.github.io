@@ -1,6 +1,16 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(fonts/Montserrat-Regular.ttf);
+    font-weight: normal;
+}
+@font-face {
+    font-family: Montserrat;
+    src: url(fonts/Montserrat-Bold.ttf);
+    font-weight: bold;
+}
 body {
     margin:0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
 }
 .row *{
     display: flex;
@@ -16,7 +26,14 @@ body {
 }
 #navbar-title {
     font-size: xx-large;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-weight: bold;
     margin-left: 10px;
+}
+h1, h5, #navbar title{
+    font-size: xx-large;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 footer{
     background-color: gray;
@@ -36,9 +53,6 @@ footer #p-3{
 }
 ul{
     list-style-type: none;
-}
-ul li{
-    display: list-item;
 }
 img {
     max-width: 100%;
